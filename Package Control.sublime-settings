@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf",
+		"Colorsublime",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Material Theme",
+		"Package Control",
+//		"SFTP",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Xdebug Client"
+	]
+}
