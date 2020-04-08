@@ -10,7 +10,7 @@
     // "/absolute/path/to/file/on/server" : "/path/to/file/on/computer",
     // "/var/www/htdocs/example/" : "C:/git/websites/example/"
     "path_mapping": {
-        "/var/www/site/" : "K:/dev/github/php-dev/dev/",
+        "/var/www/site/public/" : "K:/dev/github/php-dev/dev/public/",
         "/var/www/site/" : "K:/dev/web/jp/",
         "/var/www/site/" : "K:/dev/web/es/",
     },
@@ -63,7 +63,7 @@
     "max_depth": 1,
 
     // Break at first line on session start, when debugger engine has connected.
-    "break_on_start": false,
+    "break_on_start": true,
 
     // Break on exceptions, suspend execution
     // when the exception name matches an entry in this list value.
