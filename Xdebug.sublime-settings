@@ -10,10 +10,36 @@
     // "/absolute/path/to/file/on/server" : "/path/to/file/on/computer",
     // "/var/www/htdocs/example/" : "C:/git/websites/example/"
     "path_mapping": {
-        "/var/www/site/public/" : "K:/dev/github/php-dev/dev/public/",
-        "/var/www/site/" : "K:/dev/web/jp/",
+        //"/var/www/site/public/" : "K:/dev/github/php-dev/dev/public/",
+        //"/var/www/site/" : "K:/dev/web/jp/",
         "/var/www/site/" : "K:/dev/web/es/",
     },
+
+    // Break at first line on session start, when debugger engine has connected.
+    "break_on_start": false,
+
+    // Break on exceptions, suspend execution
+    // when the exception name matches an entry in this list value.
+    "break_on_exception": [
+        // E_ERROR, E_CORE_ERROR, E_COMPILE_ERROR, E_USER_ERROR
+        "Fatal error",
+        // E_RECOVERABLE_ERROR (since PHP 5.2.0)
+        "Catchable fatal error",
+        // E_WARNING, E_CORE_WARNING, E_COMPILE_WARNING, E_USER_WARNING
+//        "Warning",
+        // E_PARSE
+        "Parse error",
+        // E_NOTICE, E_USER_NOTICE
+//        "Notice",
+        // E_STRICT
+        "Strict standards",
+        // E_DEPRECATED, E_USER_DEPRECATED (since PHP 5.3.0)
+        "Deprecated",
+        // 0
+        "Xdebug",
+        // default
+        "Unknown error"
+    ],
 
     // Determine which URL to launch in the default web browser
     // when starting/stopping a session.
@@ -25,7 +51,7 @@
     // This package does not filter sessions by IDE key,
     // it will accept any IDE key, also ones that do not match this configured IDE key.
     // It is merely used when launching the default web browser with the configured URL.
-    "ide_key": "david",
+    "ide_key": "8ctopus",
 
     // Host address of network interface which Sublime Text
     // should listen to connect with debugger engine.
@@ -61,32 +87,6 @@
     // Maximum amount of nested levels to retrieve
     // of array elements and object properties.
     "max_depth": 1,
-
-    // Break at first line on session start, when debugger engine has connected.
-    "break_on_start": true,
-
-    // Break on exceptions, suspend execution
-    // when the exception name matches an entry in this list value.
-    "break_on_exception": [
-        // E_ERROR, E_CORE_ERROR, E_COMPILE_ERROR, E_USER_ERROR
-        "Fatal error",
-        // E_RECOVERABLE_ERROR (since PHP 5.2.0)
-        "Catchable fatal error",
-        // E_WARNING, E_CORE_WARNING, E_COMPILE_WARNING, E_USER_WARNING
-        "Warning",
-        // E_PARSE
-        "Parse error",
-        // E_NOTICE, E_USER_NOTICE
-//        "Notice",
-        // E_STRICT
-        "Strict standards",
-        // E_DEPRECATED, E_USER_DEPRECATED (since PHP 5.3.0)
-        "Deprecated",
-        // 0
-        "Xdebug",
-        // default
-        "Unknown error"
-    ],
 
     // Always close debug windows and restore layout on session stop.
     "close_on_stop": false,
