@@ -1,4 +1,7 @@
 [
+    // find use
+    {"keys": ["f3"], "command": "find_use"},
+
     // xdebug
     {"keys": ["f2"], "command": "xdebug_breakpoint"},
     {"keys": ["shift+f2"], "command": "xdebug_conditional_breakpoint"},
