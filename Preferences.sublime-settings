@@ -5,8 +5,8 @@
 	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"preview_on_click": false,
-	"open_files_in_new_window": false,
+	"hot_exit": false,
+    "remember_full_screen": true,
 	"ignored_packages":
 	[
 		"Debugger",
@@ -50,7 +50,9 @@
 	"material_theme_tabs_separator": true,
 	"material_theme_titlebar": true,
 	"material_theme_tree_headings": true,
+	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
+	"preview_on_click": false,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
