@@ -10,11 +10,13 @@
 		"Debugger",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
+		"Emmet",
 		"Laravel Blade Highlighter",
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"Material Theme",
 		"Package Control",
+		"PHP Completions Kit",
 		"SublimeLinter",
 		"SublimeLinter-php",
 		"Xdebug Client"
