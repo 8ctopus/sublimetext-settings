@@ -1,6 +1,8 @@
 [
     // find use
-    {"keys": ["f3"], "command": "find_use"},
+    {"keys": ["f1"], "command": "find_use"},
+
+    {"keys": ["ctrl+f1"], "command": "goto_definition"},
 
     // xdebug
     {"keys": ["f2"], "command": "xdebug_breakpoint"},
