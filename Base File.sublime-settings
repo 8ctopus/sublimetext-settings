@@ -63,7 +63,7 @@
   "jsdocs_return_description": false,
 
   // Add a '[description]' placeholder for the param tag?
-  "jsdocs_param_description": true,
+  "jsdocs_param_description": false,
 
   // Add a name of parameter in param tag?
   "jsdocs_param_name": true,
