@@ -11,7 +11,7 @@
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"Laravel Blade Highlighter",
-		"MarkdownEditing",
+		"Markdown Extended",
 		"MarkdownPreview",
 		"Material Theme",
 		"Package Control",
@@ -19,6 +19,7 @@
 		"PHP Completions Kit",
 		"SublimeLinter",
 		"SublimeLinter-php",
-		"Xdebug Client"
-	]
+		"Terminal",
+		"Xdebug Client",
+	],
 }

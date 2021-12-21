@@ -34,5 +34,7 @@
     {"keys": ["f7"], "command": "debugger", "args": { "action": "on_step_in" }},
     {"keys": ["f8"], "command": "debugger", "args": { "action": "on_step_out" }},
     {"keys": ["f9"], "command": "debugger", "args": { "action": "on_resume" }},
- */
+*/
+
+    { "keys": ["ctrl+shift+t"], "command": "open_terminal_project_folder" },
 ]
