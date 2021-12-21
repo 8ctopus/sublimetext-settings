@@ -3,15 +3,14 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"default_line_ending": "unix",
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Debugger",
-		"Markdown",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -54,9 +53,9 @@
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
 	"remember_full_screen": true,
+	"show_encoding": true,
+	"show_line_endings": true,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"show_encoding": true,
-	"show_line_endings": true
 }
