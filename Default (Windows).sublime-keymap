@@ -1,4 +1,7 @@
 [
+    // save all
+    { "keys": ["ctrl+shift+s"], "command": "save_all", "args": { "async": true } },
+
     // find use
     {"keys": ["f1"], "command": "find_use"},
 
