@@ -19,9 +19,13 @@
 		"Package Control",
 		"PHP Companion",
 		"PHP Completions Kit",
+		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-php",
 		"Terminal",
 		"Xdebug Client",
+	],
+	"install_prereleases": [
+		"Sass"
 	],
 }
